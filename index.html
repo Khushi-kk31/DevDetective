@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miniproject</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-container">
+          <h1>DevDetective</h1>
+
+          <div class="dark-mode">
+            <p id="dark-text" class="dark-mode">DARK</p>
+            <img src="asset/moon-icon.svg" id="dark-img" class="dark-mode" />
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <div class="main-container">
+          <div class="search-container">
+            <div class="search-bar">
+              <img src="asset/search-icon.svg" id="search-img" />
+              <input
+                type="search"
+                name="search-bar"
+                id="search-bar"
+                required
+                autocomplete="off"
+                placeholder="Enter a GitHub Username..."
+              />
+            </div>
+
+            <div class="button-container">
+              <button>Search</button>
+            </div>
+          </div>
+
+          <div class="main-content">
+            <!-- UserName and Image Container -->
+            <div class="profile-container">
+              <img src="#" id="profile-img" loading="lazy" />
+
+              <div class="profile-data">
+                <h2 id="name"></h2>
+                <a href="#" id="username" target="_blank">@test</a>
+                <div id="date"></div>
+              </div>
+            </div>
+
+            <!-- Bio Container -->
+            <div class="bio-container">
+              <p id="bio">IT Engineer etc.</p>
+            </div>
+
+            <!-- Repos, Followers, Following -->
+            <div class="num-container">
+              <div class="content">
+                <p>Repos</p>
+                <p id="repo" class="num">70</p>
+              </div>
+              <div class="content">
+                <p>Followers</p>
+                <p id="follower" class="num">70</p>
+              </div>
+              <div class="content">
+                <p>Following</p>
+                <p id="following" class="num">70</p>
+              </div>
+            </div>
+
+            <div class="details-container">
+              <div class="detail">
+                <img
+                  src="asset/location-icon.svg"
+                  id="location-img"
+                  class="detailImg"
+                />
+                <p id="location"></p>
+              </div>
+              <div class="detail">
+                <img
+                  src="asset/website-icon.svg"
+                  id="link-img"
+                  class="detailImg"
+                />
+                <a href="" id="link" target="_blank"></a>
+              </div>
+              <div class="detail">
+                <img
+                  src="asset/x-icon.svg"
+                  id="twitter-img"
+                  class="detailImg"
+                />
+                <a href="" id="x" target="_blank"></a>
+              </div>
+              <div class="detail">
+                <img
+                  src="asset/company-icon.svg"
+                  id="company-img"
+                  class="detailImg"
+                />
+                <p id="company"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
