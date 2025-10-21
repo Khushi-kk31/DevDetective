@@ -5,7 +5,7 @@ DevDetective is a mini web app built with **HTML, CSS, and JavaScript** to quick
 ---
 
 ## 🔗 Live Demo
-👉 **Working Link:** _[Add your deployed link here]([Link](https://devdetective-miniproject.netlify.app/))_
+👉 **Working Link:** _[https://devdetective-miniproject.netlify.app/]_
 
 ---
 
@@ -23,7 +23,7 @@ DevDetective is a mini web app built with **HTML, CSS, and JavaScript** to quick
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](./assets/light-mode.png) | ![Dark Mode](./assets/dark-mode.png) |
+| ![Light Mode](./asset/light-mode.png) | ![Dark Mode](./asset/dark-mode.png) |
 
 ---
 
